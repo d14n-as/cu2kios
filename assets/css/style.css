@@ -1,0 +1,56 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+html, body{
+	font-family: 'Light',sans-serif !important;
+}
+
+.medium {
+	font-family: 'medium';
+}
+
+.navbar { 
+	margin-bottom:0px !important;
+}
+
+.width100 {
+	width: 100% !important;
+}
+
+.nogap {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.background-size-cover {
+	position: fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.fixed {
+	margin-top: 300px;
+	padding-bottom: 50px;
+    position: relative !important;
+    height: 100%;
+    background-color: #fff;
+}
+
+.box {
+	border: 2px solid #fff;
+}
+
