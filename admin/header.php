@@ -56,8 +56,8 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nogap">
 				<?php 
-				$use=$_SESSION['uname'];
-				$fo=mysql_query("select foto from admin where uname='$use'");
+				$uname=$_SESSION['uname'];
+				$fo=mysql_query("select foto from admin where uname='$uname'");
 				while($f=mysql_fetch_array($fo)){
 					?>				
 					<div class="col-xs-12 col-md-12 nogap background-size-cover">

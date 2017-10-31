@@ -1,6 +1,14 @@
+<?php 
+	session_start();
+	?>
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="description" content="CuCuKios merupakan salah satu usaha UMKM milik Ibunya Abdul yang berdomisili di Majalengka, Jawa Barat. Menyediakan berbagai macam kebutuhan seperti sembako atau sembilan bahan pokok, alat sekolah, alat kesehatan, alat kecantikan dan yang lainnya. Usaha ini di rintis pada waktu Abdul masih Sekolah Dasar sampai Abdul membuat Web Aplikasi sederhana ini. Perkembangan zaman semakin cepat dan teknologi semakin canggih, CuCuKios harus mampu bersaing dan melebarkan usaha UMKMnya agar lebih di kenal masyarakat luas sehingga CuCuKios menjadi pilihan yang tepat bagi masyarakat modern kemudian hari.">
+	<meta name="keyword" content="Kios, Modern, Web, Aplikasi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>CuCuKios</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">

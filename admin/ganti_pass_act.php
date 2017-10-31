@@ -1,14 +1,14 @@
 <?php 
 include 'config.php';
 $user=$_POST['user'];
-$lama=md5($_POST['lama']);
+$lama=($_POST['lama']);
 $baru=$_POST['baru'];
 $ulang=$_POST['ulang'];
 
 $cek=mysql_query("select * from admin where pass='$lama' and uname='$user'");
 if(mysql_num_rows($cek)==1){
 	if($baru==$ulang){
-		$b = md5($baru);
+		$b = $baru;
 		mysql_query("update admin set pass='$b' where uname='$user'");
 		header("location:ganti_pass.php?pesan=oke");
 	}else{
