@@ -1,6 +1,3 @@
-<?php 
-	session_start();
-	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +46,9 @@
 			<form action="login_act.php" method="post">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-bottom: 30px;">
 								<div class="col-md-6 col-md-offset-3 col-xs-12 kotak">
-								<h3 class="text-center">Sudahkah login hari ini?</h3>
+								<div class="left">
+									<h3 class="text-center"><img src="logo.png" class="img-responsive" width="225" height="78"></h3>
+								</div>
 									<div class="input-group">
 										<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
 										<input type="text" class="form-control" placeholder="Username" name="uname">

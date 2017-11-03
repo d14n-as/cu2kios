@@ -23,7 +23,7 @@
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand medium">CuCuKios</a>
+				<a href="index.php" class="navbar-brand medium"><img src="../logo.png" width="100" height="35" style="margin-top: -7px;"></a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
